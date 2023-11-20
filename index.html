@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_bootstrap/bootstrap.min.css">
+    
+    <title>Document</title>
+</head>
+<body>
+        <section class="container">
+          <h2 class="d-flex justify-content-center mt-3"></h2>
+          <hr>
+          <form>
+            <div class="from-group p-1">
+                <input type="text" class="form-control" placeholder="Persons quote."/>
+              </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-warning m-4">quote</button>
+            </div>
+          </form>
+        </section>
+        <main class="container">
+          <div class="alert alert-danger" style="display: none"></div>
+          <table class="table table-dark">
+            <thead>
+              <tr>
+                <th>Quote</th>
+                <th>Author</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="quote"></td>
+                <td class="author"></td>
+              </tr>
+            </tbody>
+          </table>
+          <hr>
+        </main>
+        <script src="js/js.js"></script>
+      </body>
+</html>
